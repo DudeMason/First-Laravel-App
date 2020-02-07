@@ -123,15 +123,16 @@
                     <u>-GitHub-</u>
                   </a>
                 </p>
-                <br/>
-                <p style="opacity:.5; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 10%;">
-                  Created by Mason Eyre
+
+
+            </div>
+            <p style="opacity:.5; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 10%;">
+              Created by Mason Eyre
                   <br/>
                   <a href="http://www.masoneyre.com" target='_blank'>
                     www.masoneyre.com
                   </a>
                 </p>
-            </div>
         </div>
     </body>
 </html>
