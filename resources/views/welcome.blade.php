@@ -12,58 +12,86 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #FFFFFF;
-                font-family: 'Helveticca', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
+              background-color: #fff;
+              color: #FFFFFF;
+              font-family: 'Helveticca', sans-serif;
+              font-weight: 200;
+              height: 100vh;
+              margin: 0;
             }
 
             .full-height {
-                height: 100vh;
+              height: 100vh;
             }
 
             .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
+              align-items: center;
+              display: flex;
+              justify-content: center;
             }
 
             .position-ref {
-                position: relative;
+              position: relative;
             }
 
             .top-right {
-                position: absolute;
-                right: 20px;
-                top: 20px;
+              position: absolute;
+              right: 20px;
+              top: 20px;
             }
 
             .content {
-                text-align: center;
-                background-color: #2A2A2A;
-                padding: 90px;
-                border-radius: 75px;
-                margin: 50px;
+              text-align: center;
+              background-color: #2A2A2A;
+              padding: 70px;
+              border-radius: 75px;
+              margin: 50px;
+              padding-bottom: 20px;
+              margin-bottom: 150px;
             }
 
             .title {
-                font-size: 80px;
+              font-size: 70px;
             }
 
             .links > a {
-                color: #FFFFFF;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
+              color: #FFFFFF;
+              padding: 0 25px;
+              font-size: 13px;
+              font-weight: 600;
+              letter-spacing: .1rem;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            .grid > a{
+              color: #FFFFFF;
+              padding: 0 25px;
+              font-size: 13px;
+              font-weight: 500;
+              letter-spacing: .1rem;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            .grid {
+              display: flex;
+              flex-wrap: wrap;
+              display: grid;
+              grid-template-columns: repeat(2, minmax(20px, auto));
+              grid-auto-rows: minmax(20px, auto);
+              grid-gap: 30px;
+            }
+            .module {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 20px;
+              margin-left: 5px;
+              margin-right: 5px;
+              flex: 1 1 100px;
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+              margin-bottom: 30px;
             }
             .background{
               background-color: #808080;
@@ -101,17 +129,17 @@
                 </p>
                 <br/>
                 <h2>My Projects</h2>
-                <div class="links">
-                    <a href="https://appestimation.herokuapp.com/" target='_blank'>
+                <div class="grid">
+                    <a href="https://appestimation.herokuapp.com/" target='_blank' class='module'>
                       <u>-App Estimator-</u>
                     </a>
-                    <a href="http://triptrackplan.herokuapp.com/" target='_blank'>
+                    <a href="http://triptrackplan.herokuapp.com/" target='_blank' class='module'>
                       <u>-Trip Tracker-</u>
                     </a>
-                    <a href="http://www.ceojanitorial.com/" target='_blank'>
+                    <a href="http://www.ceojanitorial.com/" target='_blank' class='module'>
                       <u>-CEO Janitorial-</u>
                     </a>
-                    <a href="https://repl.it/@MasonMan/Ruby-Store" target='_blank'>
+                    <a href="https://repl.it/@MasonMan/Ruby-Store" target='_blank' class='module'>
                       <u>-Ruby Store-</u>
                     </a>
                 </div>
@@ -123,16 +151,14 @@
                     <u>-GitHub-</u>
                   </a>
                 </p>
-
-
             </div>
-            <p style="opacity:.5; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 10%;">
+            <p style="opacity:.5; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 5%; text-align: center;">
               Created by Mason Eyre
-                  <br/>
-                  <a href="http://www.masoneyre.com" target='_blank'>
-                    www.masoneyre.com
-                  </a>
-                </p>
+              <br/>
+              <a href="http://www.masoneyre.com" target='_blank'>
+                www.masoneyre.com
+              </a>
+            </p>
         </div>
     </body>
 </html>
