@@ -45,6 +45,7 @@
                 background-color: #2A2A2A;
                 padding: 90px;
                 border-radius: 75px;
+                margin: 50px;
             }
 
             .title {
