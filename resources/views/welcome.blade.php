@@ -66,6 +66,8 @@
             }
             .background{
               background-color: #808080;
+              height: calc(100vh);
+              overflow-y: auto;
             }
 
         </style>
