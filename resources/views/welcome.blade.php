@@ -47,7 +47,6 @@
               border-radius: 75px;
               margin: 50px;
               padding-bottom: 20px;
-              margin-bottom: 150px;
             }
 
             .title {
@@ -95,11 +94,12 @@
             }
             .background{
               background-color: #808080;
-              height: calc(110vh);
+              height: calc(100vh);
               overflow-y: auto;
               background-size: cover;
               background-position: center;
               background-repeat: repeat;
+              padding-bottom: 120px;
             }
 
         </style>
@@ -155,7 +155,7 @@
                   </a>
                 </p>
             </div>
-            <p style="opacity:.5; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 1%; text-align: center;">
+            <p style="opacity:.6; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 0%; margin-bottom: -60px;text-align: center;">
               Created by Mason Eyre
               <br/>
               <a href="http://www.masoneyre.com" target='_blank'>
