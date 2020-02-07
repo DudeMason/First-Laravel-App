@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>First Laravel App</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -13,8 +13,8 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                color: #FFFFFF;
+                font-family: 'Helveticca', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -36,20 +36,23 @@
 
             .top-right {
                 position: absolute;
-                right: 10px;
-                top: 18px;
+                right: 20px;
+                top: 20px;
             }
 
             .content {
                 text-align: center;
+                background-color: #2A2A2A;
+                padding: 90px;
+                border-radius: 75px;
             }
 
             .title {
-                font-size: 84px;
+                font-size: 80px;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #FFFFFF;
                 padding: 0 25px;
                 font-size: 13px;
                 font-weight: 600;
@@ -61,9 +64,13 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .background{
+              background-color: #808080;
+            }
+
         </style>
     </head>
-    <body>
+    <body class='background'>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -81,19 +88,46 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    My First Laravel App
                 </div>
 
+                <p class='links'>
+                  <a href="http://www.masoneyre.com" target='_blank'>
+                    <u>-My Website-</u>
+                  </a>
+                </p>
+                <br/>
+                <h2>My Projects</h2>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://appestimation.herokuapp.com/" target='_blank'>
+                      <u>-App Estimator-</u>
+                    </a>
+                    <a href="http://triptrackplan.herokuapp.com/" target='_blank'>
+                      <u>-Trip Tracker-</u>
+                    </a>
+                    <a href="http://www.ceojanitorial.com/" target='_blank'>
+                      <u>-CEO Janitorial-</u>
+                    </a>
+                    <a href="https://repl.it/@MasonMan/Ruby-Store" target='_blank'>
+                      <u>-Ruby Store-</u>
+                    </a>
                 </div>
+                <br/>
+                <p class='links'>
+                  You can see more on my GitHub!
+                  <br/>
+                  <a href="https://github.com/DudeMason" target='_blank'>
+                    <u>-GitHub-</u>
+                  </a>
+                </p>
+                <br/>
+                <p style="opacity:.5; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 20px;">
+                  Created by Mason Eyre
+                  <br/>
+                  <a href="http://www.masoneyre.com" target='_blank'>
+                    www.masoneyre.com
+                  </a>
+                </p>
             </div>
         </div>
     </body>
