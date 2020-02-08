@@ -2,6 +2,12 @@
 
 @section('main')
 <body>
-  <h1 style='color: black;'>Contact Page</h1>
+  <div class="flex-center position-ref">
+    <div class='main'>
+      <div class='title m-b-md'>
+        Contact Page
+      </div>
+    </div>
+  </div>
 </body>
 @endsection

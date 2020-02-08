@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('main')
-  <body class='background'>
-    <div class="flex-center position-ref full-height">
+  <body>
+    <div class="flex-center position-ref">
       <div class="main">
         <div class="title m-b-md">
           My First Laravel App
