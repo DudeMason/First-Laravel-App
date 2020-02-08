@@ -1,8 +1,9 @@
 <div class="pos-f-t">
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
-      <h5 class="text-white h4"><a href='#'>About</a></h5>
-      <h5 class='text-white h4'><a href='#'>Contact</a></h5>
+      <h5 class="text-white h4"><a href='/'>Home</a></h5>
+      <h5 class="text-white h4"><a href='/about'>About</a></h5>
+      <h5 class='text-white h4'><a href='/contact'>Contact</a></h5>
       <span class="text-muted">Laravel Rocks</span>
     </div>
   </div>
