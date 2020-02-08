@@ -13,10 +13,10 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
-Route::get('/about', function () {
+})-> name('view.welcome');
+Route::get('about', function () {
     return view('about');
-});
-Route::get('/contact', function () {
+})-> name('view.about');
+Route::get('contact', function () {
     return view('contact');
-});
+})-> name('view.contact');
