@@ -1,119 +1,12 @@
 @extends('layouts.master')
 
 @section('main')
-  <style>
-    html, body {
-      background-color: #fff;
-      color: #FFFFFF;
-      font-family: 'Helveticca', sans-serif;
-      font-weight: 200;
-      height: 100vh;
-      margin: 0;
-    }
-
-    .full-height {
-      height: 100vh;
-    }
-
-    .flex-center {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-    }
-
-    .position-ref {
-      position: relative;
-    }
-
-    .top-right {
-      position: absolute;
-      right: 20px;
-      top: 20px;
-    }
-
-    .main {
-      text-align: center;
-      background-color: #2A2A2A;
-      padding: 70px;
-      border-radius: 75px;
-      margin: 50px;
-      padding-bottom: 20px;
-    }
-
-    .title {
-      font-size: 70px;
-    }
-
-    .links > a {
-      color: #FFFFFF;
-      padding: 0 25px;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: .1rem;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-    .grid > a{
-      color: #FFFFFF;
-      padding: 0 25px;
-      font-size: 13px;
-      font-weight: 500;
-      letter-spacing: .1rem;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-    .grid {
-      display: flex;
-      flex-wrap: wrap;
-      display: grid;
-      grid-template-columns: repeat(2, minmax(20px, auto));
-      grid-auto-rows: minmax(20px, auto);
-      grid-gap: 30px;
-    }
-    .module {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 20px;
-      margin-left: 5px;
-      margin-right: 5px;
-      flex: 1 1 100px;
-    }
-
-    .m-b-md {
-      margin-bottom: 30px;
-    }
-    .background{
-      background-color: #808080;
-      height: calc(100vh);
-      overflow-y:visible;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-
-  </style>
   <body class='background'>
     <div class="flex-center position-ref full-height">
-      @if (Route::has('login'))
-        <div class="top-right links">
-          @auth
-            <a href="{{ url('/home') }}">Home</a>
-          @else
-            <a href="{{ route('login') }}">Login</a>
-
-            @if (Route::has('register'))
-              <a href="{{ route('register') }}">Register</a>
-            @endif
-          @endauth
-        </div>
-      @endif
-
       <div class="main">
         <div class="title m-b-md">
           My First Laravel App
         </div>
-
           <p class='links'>
             <a href="http://www.masoneyre.com" target='_blank'>
               <u>-My Website-</u>
@@ -144,7 +37,7 @@
             </a>
           </p>
       </div>
-      <p style="opacity:.6; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 0%; margin-bottom: -60px;text-align: center;">
+      <p style="color: black; opacity:.6; position: absolute; margin-left: auto; margin-right: auto; left: 0; right: 0; bottom: 0%; margin-bottom: -60px; text-align: center;">
         Created by Mason Eyre
         <br/>
         <a href="http://www.masoneyre.com" target='_blank'>

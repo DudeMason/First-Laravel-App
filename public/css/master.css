@@ -1,0 +1,82 @@
+
+html, body {
+  background-color: #fff;
+  color: #FFFFFF;
+  font-family: 'Helveticca', sans-serif;
+  font-weight: 150;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.main {
+  text-align: center;
+  background-color: #343A40;
+  padding: 70px;
+  border-radius: 75px;
+  margin: 50px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.links > a {
+  color: #FFFFFF;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.grid > a{
+  color: #FFFFFF;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(20px, auto));
+  grid-auto-rows: minmax(20px, auto);
+  grid-gap: 30px;
+}
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 100px;
+}
+
+.m-b-md {
+  margin-bottom: 10px;
+}
