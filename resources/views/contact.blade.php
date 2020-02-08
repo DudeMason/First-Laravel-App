@@ -21,7 +21,7 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary" onclick="alert('Email Sent!')">Submit</button>
+        <button type="submit" class="btn btn-primary" onclick="alert('Email Sent!...(not really)')">Submit</button>
       </form>
     </div>
   </div>
